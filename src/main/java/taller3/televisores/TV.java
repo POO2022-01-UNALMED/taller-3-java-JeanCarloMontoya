@@ -51,7 +51,7 @@ public class TV {
 	
 	public boolean getEstado() {
 		return estado;}
-	public void setNumTV(int numero) {
+	public static void setNumTV(int numero) {
 		TV.numTV=numero;
 	}
 
