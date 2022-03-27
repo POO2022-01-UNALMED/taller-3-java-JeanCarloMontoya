@@ -17,10 +17,12 @@ public class Control {
 		this.tv=tv;}
 	
 	public void turnOn() {
-		this.tv.estado=true;}
+		tv.turnOn();
+	}
 	public void turnOff() {
-		this.tv.estado=false;}
-
+		tv.turnOff();
+	}
+		
 	
 	public void canalUp() {
 		tv.canalUp();
