@@ -54,7 +54,33 @@ public class TV {
 	public static void setNumTV(int numero) {
 		TV.numTV=numero;
 	}
-
+	public void canalUp() {
+		if (estado=true) {
+			if (canal<120) {
+				canal++;}
+			return;}
+		return;}
+	
+	public void canalDown() {
+		if (estado=true) {
+			if (canal>1) {
+				canal--;}
+			return;}
+		return;}
+	
+	public void volumenUp() {
+		if (estado=true) {
+			if (volumen<7) {
+				volumen++;}
+			return;}
+		return;}
+	
+	public void volumenDown() {
+		if (estado=true){
+			if (volumen>0) {
+				volumen--;}
+			return;}
+		return;}
 	
 
 }
