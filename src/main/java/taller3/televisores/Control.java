@@ -50,12 +50,13 @@ public class Control {
 		return;}
 	
 	public void setCanal(int canal) {
-		if (tv.estado=true) {
-			if (canal>=1||canal<=120) {
+		if (tv.estado=false) {
+			return;
+		}
+		else{
+			if ((canal>=1)||(canal<=120)) {
 				this.tv.canal=canal;}
-			return;}
-		return;}
-			
+			return;}}
 		
 	
 	
