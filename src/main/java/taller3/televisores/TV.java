@@ -39,7 +39,7 @@ public class TV {
 	public void setCanal(int canal) {
 		if (estado==true) {
 			if (canal>=1||canal<=120) {
-				canal=canal;}
+				this.canal=canal;}
 			return;}
 		return;}
 	public int getCanal() {
