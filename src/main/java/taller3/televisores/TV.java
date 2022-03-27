@@ -41,8 +41,8 @@ public class TV {
 	public int getCanal() {
 		return canal;}
 	
-	public int getNumTV() {
-		return numTV;}
+	public  static int getNumTV() {
+		return TV.numTV;}
 	
 	public void turnOn() {
 		estado=true;}
