@@ -14,7 +14,7 @@ public class TV {
 		canal=1;
 		volumen=1;
 		precio=500;
-		numTV++;
+		TV.numTV=TV.numTV+1;
 	}
 	public void setMarca(Marca marca) {
 		this.marca=marca;}
