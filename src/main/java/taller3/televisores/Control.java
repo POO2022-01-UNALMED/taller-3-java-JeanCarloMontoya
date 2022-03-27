@@ -20,46 +20,34 @@ public class Control {
 		this.tv.estado=true;}
 	public void turnOff() {
 		this.tv.estado=false;}
+
 	
 	public void canalUp() {
-		if (tv.estado==true) {
-			if (tv.canal<120) {
-				tv.canal++;}
-			return;}
-		return;}
+		tv.canalUp();
+	}
+
 	
 	public void canalDown() {
-		if (tv.estado==true) {
-			if (tv.canal>1) {
-				tv.canal--;}
-			return;}
-		return;}
-	
+		tv.canalDown();
+	}
+
 	public void volumenUp() {
-		if (tv.estado==true) {
-			if (tv.volumen<7) {
-				tv.volumen++;}
-			return;}
-		return;}
+		tv.volumenUp();
+	}
+
 	
 	public void volumenDown() {
-		if (tv.estado==true){
-			if (tv.volumen>0) {
-				tv.volumen--;}
-			return;}
-		return;}
+		tv.volumenDown();
+	}
+
 	
 	public void setCanal(int canal) {
-		if (tv.estado==true) {
-			if (tv.canal>=1||tv.canal<=120) {
-				tv.canal=canal;}
-			return;}
-		return;}
+		tv.setCanal(canal);
+	}
+
 	
 	
 	
 	
 
 }
-	
-	
